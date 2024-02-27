@@ -12,3 +12,11 @@ export function getToken() {
 export function removeToken() {
     localStorage.removeItem(tokenKey);
 }
+
+export function checkAuth() {
+    /*
+        in this case, checks for token existence
+        implement your checkAuth api
+    */
+    return !!getToken();
+}
