@@ -1,0 +1,36 @@
+.sectionWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapContainer {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border: 1px solid #0002;
+    box-shadow: 0 0 10px #8888;
+    border-radius: 8px;
+    background: white;
+}
+
+.mapWrapper {
+    width: 1000px;
+    height: 100%;
+}
+
+.mapActions {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.yearIntervalSliderContainer {
+}
+
+.yearIntervalSlider {
+}

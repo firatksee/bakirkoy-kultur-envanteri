@@ -1,17 +1,32 @@
+@import "leaflet/dist/leaflet.css";
+
+@font-face {
+    font-family: "Broadway";
+    src: local("Broadway"), url("../src/assets/fonts/Broadway.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BritannicBold";
+    src: local("BritannicBold"), url("../src/assets/fonts/BritannicBold.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
