@@ -6,11 +6,12 @@
         "start_date": 1453,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.98229555382278,\n28.86772323865611",
+        "location": "40.98249933514597, 28.867222369717606",
         "current_local": "Zuhuratbaba",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/jZgKcXb/11548136.png",
-        "optimization": "Türbe"
+        "optimization": "Türbe",
+        "street_view": "https://www.google.com/maps/@40.9827793,28.8675375,3a,35y,183.65h,85.29t/data=!3m6!1e1!3m4!1s4r7OcYfP-af5L6UJp-Jlpw!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Zuhurat Baba Çeşmesi",
@@ -36,7 +37,8 @@
         "current_local": "Cevizlik",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Camii"
+        "optimization": "Camii",
+        "street_view": "https://www.google.com/maps/@40.9788321,28.874996,3a,75y,125.59h,98.23t/data=!3m6!1e1!3m4!1sHtIwSfpaK3-6a8q0NCPEbw!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Bakırköy Şifa Hamamı",
@@ -49,7 +51,8 @@
         "current_local": "Cevizlik",
         "current_status": "Ticaret",
         "icon": "https://i.ibb.co/7k05CkP/11430710.png",
-        "optimization": "Hamam"
+        "optimization": "Hamam",
+        "street_view": "https://www.google.com/maps/@40.9785377,28.8754576,3a,90y,301.8h,99.4t/data=!3m6!1e1!3m4!1stQVI1772u4U6wnw_TP1phw!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Hünkâr Köşkü",
@@ -62,7 +65,8 @@
         "current_local": "Ataköy",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/fYVTKcJ/614535.png",
-        "optimization": "İdari Yapı"
+        "optimization": "İdari Yapı",
+        "street_view": "https://www.google.com/maps/@40.9762427,28.8592814,3a,15y,186.55h,92.34t/data=!3m6!1e1!3m4!1suYxbSpSqLgcabHCtPxWyrQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Baruthane-i Âmire",
@@ -75,7 +79,8 @@
         "current_local": "Ataköy",
         "current_status": "Millet Bahçesi",
         "icon": "https://i.ibb.co/KmxgHjN/2946782.png",
-        "optimization": "Baruthane"
+        "optimization": "Baruthane",
+        "street_view": "https://www.google.com/maps/@40.9760268,28.8608598,3a,75y,230.19h,93.14t/data=!3m6!1e1!3m4!1sHShwniB_CRk2ibAbFPVqWA!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Dzınunt Surp Asdvadzadzni Kilisesi",
@@ -84,11 +89,12 @@
         "start_date": 1844,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.98174578261619, 28.875815390802416",
+        "location": "40.97697972936054, 28.874788544061442",
         "current_local": "Zeytinlik",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Ermeni Kilisesi"
+        "optimization": "Ermeni Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.9769641,28.8748899,3a,75y,270.93h,101.52t/data=!3m7!1e1!3m5!1sPSj6MZ24I5ens7sAYDW4XQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DPSj6MZ24I5ens7sAYDW4XQ%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D349.53122%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Basmahane-i Âmire",
@@ -101,7 +107,8 @@
         "current_local": "Sakızağacı",
         "current_status": "Kaybolan Miras",
         "icon": "https://i.ibb.co/tHVSy4t/4753968.png",
-        "optimization": "Fabrika"
+        "optimization": "Fabrika",
+        "street_view": "https://www.google.com/maps/@40.9801764,28.8878473,3a,75y,331.46h,97.21t/data=!3m7!1e1!3m5!1sCKYBpDOfghGqC9ga_6jRFw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DCKYBpDOfghGqC9ga_6jRFw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D326.98532%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Dadyan Okulu",
@@ -110,24 +117,26 @@
         "start_date": 1844,
         "end_date": 1922,
         "category": "Eğitim Yapısı",
-        "location": "40.97776285864748, 28.873559977008558",
+        "location": "40.97688097290534, 28.87424867020569",
         "current_local": "Zeytinlik",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Ermeni Okulu"
+        "optimization": "Ermeni Okulu",
+        "street_view": "https://www.google.com/maps/@40.9768457,28.8735568,3a,75y,114.94h,103.51t/data=!3m6!1e1!3m4!1sSVtGe6KYMw1J0-E_wHOiaQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
-        "name": "Notre Dame Du Rosaire Latin Katolik Kilisesi",
+        "name": "Meryem Ana Rosario Latin Katolik Kilisesi",
         "description": "İnşasına 1849’da başlanan kilise şimdiki görünümünü 1885 yılında almıştır. Bizans stilinde inşa edilen kilise çeşitli restorasyon ve onarımlardan geçmiştir. Latin Katolik cemaati için yapıldıktan sonra çeşitli cemaatler de kiliseyi kullanmış, en son Süryani Katolik cemaatine tahsis edilmiştir.",
         "image": "https://turkiyenintarihieserleri.com/foto_y/2020/09/b/1599499863.jpg , https://turkiyenintarihieserleri.com/foto_y/2020/09/b/1599499924.jpg , https://turkiyenintarihieserleri.com/foto_y/2020/09/b/1599500044.jpg , https://turkiyenintarihieserleri.com/foto_y/2020/09/b/1599499903.jpg",
         "start_date": 1849,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.9774122424023, 28.879396403488826",
+        "location": "40.9769959929767, 28.879766578071322",
         "current_local": "Sakızağacı",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Latin Katolik Kilisesi"
+        "optimization": "Latin Katolik Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.9769536,28.8798401,3a,75y,330.76h,118.68t/data=!3m6!1e1!3m4!1stdGP1vRfKat9UhuuNSFj5A!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Ermeni Mezarlığı",
@@ -140,7 +149,8 @@
         "current_local": "Kartaltepe",
         "current_status": "Mezarlık",
         "icon": "https://i.ibb.co/Kj3WKWQ/5749028.png",
-        "optimization": "Ermeni Mezarlığı"
+        "optimization": "Ermeni Mezarlığı",
+        "street_view": "https://www.google.com/maps/@40.9828174,28.8753826,3a,88.8y,344.66h,84.83t/data=!3m6!1e1!3m4!1s1T7-QpdgKWuLAvxIqgJ6Zg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Yeşilköy Tren İstasyonu",
@@ -153,7 +163,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İstasyon",
         "icon": "https://i.ibb.co/4mqpLDg/3653995.png",
-        "optimization": "İstasyon"
+        "optimization": "İstasyon",
+        "street_view": "https://www.google.com/maps/@40.9622229,28.8247872,3a,81.1y,10.6h,98.52t/data=!3m6!1e1!3m4!1sZOyhlGNQCdtpY-boDTGNIA!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Bakırköy Tren İstasyonu",
@@ -166,7 +177,8 @@
         "current_local": "Cevizlik",
         "current_status": "İstasyon",
         "icon": "https://i.ibb.co/4mqpLDg/3653995.png",
-        "optimization": "İstasyon"
+        "optimization": "İstasyon",
+        "street_view": "https://www.google.com/maps/@40.9807942,28.8731819,3a,15y,154.92h,90.87t/data=!3m6!1e1!3m4!1sqeU-kMwUVS4V_6CiBO4aPQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Rum Ortaokulu",
@@ -179,7 +191,8 @@
         "current_local": "Cevizlik",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Rum Okulu"
+        "optimization": "Rum Okulu",
+        "street_view": "https://www.google.com/maps/@40.9792439,28.8751874,3a,75y,5.12h,96.37t/data=!3m6!1e1!3m4!1sVDn3lK_t5LHANMQIs0uAjg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Behram Ağa Okulu",
@@ -188,11 +201,12 @@
         "start_date": 1889,
         "end_date": 1922,
         "category": "Eğitim Yapısı",
-        "location": "40.986971494612106, 28.877064422723013",
+        "location": "40.980646926692195, 28.877084337358983",
         "current_local": "Cevizlik",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Müslüman Okulu"
+        "optimization": "Müslüman Okulu",
+        "street_view": "https://www.google.com/maps/@40.9807062,28.8774131,3a,24.1y,256.38h,94.34t/data=!3m6!1e1!3m4!1saOeffU_9gVNcrdfhA2BDwA!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Rum Okulu",
@@ -201,11 +215,12 @@
         "start_date": 1887,
         "end_date": 1922,
         "category": "Eğitim Yapısı",
-        "location": "40.979464853252814, 28.883029952790757",
+        "location": "40.97939501522363, 28.88308906846832",
         "current_local": "Yenimahalle",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Rum Okulu"
+        "optimization": "Rum Okulu",
+        "street_view": "https://www.google.com/maps/@40.9793421,28.883249,3a,47.8y,286.98h,108.78t/data=!3m6!1e1!3m4!1sCoIIgnDlUvy7boLC-d2HJA!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Kilise Evleri",
@@ -218,7 +233,8 @@
         "current_local": "Sakızağacı",
         "current_status": "Konut Alanı",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Kilise Evi"
+        "optimization": "Kilise Evi",
+        "street_view": "https://www.google.com/maps/@40.9769155,28.8797263,3a,90y,272.34h,102.49t/data=!3m7!1e1!3m5!1sqRm4Hq9jYMkVSCT3qz_XVQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqRm4Hq9jYMkVSCT3qz_XVQ%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D253.0999%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Hamidiye Cami",
@@ -231,7 +247,8 @@
         "current_local": "Osmaniye",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Camii"
+        "optimization": "Camii",
+        "street_view": "https://www.google.com/maps/@40.9935429,28.8840094,3a,75y,316.52h,93.5t/data=!3m6!1e1!3m4!1s_6j9gwazRgZ33CbTC38zPw!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Bezazyan Okulu",
@@ -244,7 +261,8 @@
         "current_local": "Cevizlik",
         "current_status": "Kültür",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Fransız Okulu"
+        "optimization": "Fransız Okulu",
+        "street_view": "https://www.google.com/maps/@40.978606,28.8774319,3a,75y,175.45h,107.78t/data=!3m7!1e1!3m5!1suwYziewGvtKsQC7cfZnB8w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DuwYziewGvtKsQC7cfZnB8w%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D263.666%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Veliefendi Hipodromu",
@@ -257,7 +275,8 @@
         "current_local": "Osmaniye",
         "current_status": "Hipodrom",
         "icon": "https://i.ibb.co/23fHgpq/902054.png",
-        "optimization": "Hipodrom"
+        "optimization": "Hipodrom",
+        "street_view": "https://www.google.com/maps/@40.9941352,28.8887097,3a,29.9y,188.86h,89.55t/data=!3m6!1e1!3m4!1sAYgR9iAS-bPw5q8gGosfpg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Reşadiye Kışlası",
@@ -266,7 +285,7 @@
         "start_date": 1914,
         "end_date": 1922,
         "category": "Askeri Yapı",
-        "location": "40.991049093849426,\n28.861133148222507",
+        "location": "40.99163101726436, 28.860924440289047",
         "current_local": "Zuhuratbaba",
         "current_status": "Hastane",
         "icon": "https://i.ibb.co/KmxgHjN/2946782.png",
@@ -279,7 +298,7 @@
         "start_date": 1914,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.99164789929398,\n28.860958749014003 ",
+        "location": "40.99100386384027, 28.861134272101",
         "current_local": "Zuhuratbaba",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
@@ -292,11 +311,12 @@
         "start_date": 1914,
         "end_date": 1922,
         "category": "Anıt",
-        "location": "40.991888199355145,\n28.869937812762288",
+        "location": "40.99199822316551, 28.869922271503523",
         "current_local": "Zuhuratbaba",
         "current_status": "Anıt",
         "icon": "https://i.ibb.co/4Fdsw3D/6055671.png",
-        "optimization": "Anıt"
+        "optimization": "Anıt",
+        "street_view": "https://www.google.com/maps/@40.9920099,28.8698878,3a,16.6y,351.21h,84.06t/data=!3m6!1e1!3m4!1sXjjkgM0GEQOcp-cdixesxg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Amine Hatun Camii",
@@ -309,7 +329,8 @@
         "current_local": "Kartaltepe",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Camii"
+        "optimization": "Camii",
+        "street_view": "https://www.google.com/maps/@40.982514,28.8761062,3a,19.9y,197.2h,98.5t/data=!3m6!1e1!3m4!1svoa3BGYgDjILRbZs1Xg6hA!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "İspirtohane",
@@ -322,7 +343,8 @@
         "current_local": "Ataköy",
         "current_status": "Kültür",
         "icon": "https://i.ibb.co/tHVSy4t/4753968.png",
-        "optimization": "Fabrika"
+        "optimization": "Fabrika",
+        "street_view": "https://www.google.com/maps/@40.9841546,28.8448273,3a,18.5y,357.35h,96.41t/data=!3m6!1e1!3m4!1sUAv8VDRjFl5Mjp-7sQv0kQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Fransız Karakolu",
@@ -331,11 +353,12 @@
         "start_date": 1919,
         "end_date": 1922,
         "category": "Askeri Yapı",
-        "location": "40.982059956119286, 28.869995820412047",
+        "location": "40.98107819862385, 28.869806555197844",
         "current_local": "Zuhuratbaba",
         "current_status": "Sağlık",
         "icon": "https://i.ibb.co/KmxgHjN/2946782.png",
-        "optimization": "Karakol"
+        "optimization": "Karakol",
+        "street_view": "https://www.google.com/maps/@40.9809536,28.8698573,3a,42.9y,342.48h,102.41t/data=!3m6!1e1!3m4!1sn2qVtuATuI0aOoGUHMzhzw!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Rum Mezarlığı",
@@ -348,7 +371,8 @@
         "current_local": "Kartaltepe",
         "current_status": "Mezarlık",
         "icon": "https://i.ibb.co/Kj3WKWQ/5749028.png",
-        "optimization": "Rum Mezarlığı"
+        "optimization": "Rum Mezarlığı",
+        "street_view": "https://www.google.com/maps/@40.982702,28.8745899,3a,60.1y,347.7h,88.12t/data=!3m6!1e1!3m4!1sMSBaeS7ovdk-vRJGRsyWxg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Müslüman Mezarlığı",
@@ -361,7 +385,8 @@
         "current_local": "Zuhuratbaba",
         "current_status": "Mezarlık",
         "icon": "https://i.ibb.co/jZgKcXb/11548136.png",
-        "optimization": "Müslüman Mezarlığı"
+        "optimization": "Müslüman Mezarlığı",
+        "street_view": "https://www.google.com/maps/place/40%C2%B058'54.2%22N+28%C2%B052'21.0%22E/@40.9812458,28.8726136,3a,75y,12.64h,94.38t/data=!3m6!1e1!3m4!1ssjUSYFB167BX7rDokPsgQA!2e0!7i16384!8i8192!4m4!3m3!8m2!3d40.9817247!4d28.8724855?coh=205409&entry=ttu"
     },
     {
         "name": "Elektrik İdaresi",
@@ -374,7 +399,8 @@
         "current_local": "Yenimahalle",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/HGYCPHN/3608212.png",
-        "optimization": "İdari Yapı"
+        "optimization": "İdari Yapı",
+        "street_view": "https://www.google.com/maps/@40.9787744,28.8797461,3a,75y,40.86h,98.73t/data=!3m6!1e1!3m4!1sx6oiCVUXyU_5mgKjn1gT_g!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Cephanelik",
@@ -387,7 +413,8 @@
         "current_local": "Ataköy",
         "current_status": "Kültür",
         "icon": "https://i.ibb.co/tHVSy4t/4753968.png",
-        "optimization": "Fabrika"
+        "optimization": "Fabrika",
+        "street_view": "https://www.google.com/maps/@40.9884782,28.8490848,3a,75y,291.36h,94.91t/data=!3m7!1e1!3m5!1sipEbL1CCmicet2KeDVKlGA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DipEbL1CCmicet2KeDVKlGA%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D335.70975%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Baruthane-i Âmire Çeşmesi",
@@ -437,7 +464,8 @@
         "current_local": "Zeytinlik",
         "current_status": "Restoran",
         "icon": "https://i.ibb.co/HGYCPHN/3608212.png",
-        "optimization": "Demiryolu Binası"
+        "optimization": "Demiryolu Binası",
+        "street_view": "https://www.google.com/maps/@40.9796338,28.8693916,3a,75y,28.46h,85.95t/data=!3m7!1e1!3m5!1s4OqkTpbZFoa8F_oB3yPf-A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D4OqkTpbZFoa8F_oB3yPf-A%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D275.56583%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Bakırköy Eski Kaymakamlık Binası",
@@ -450,7 +478,8 @@
         "current_local": "Zuhuratbaba",
         "current_status": "Belediye",
         "icon": "https://i.ibb.co/HGYCPHN/3608212.png",
-        "optimization": "İdari Yapı"
+        "optimization": "İdari Yapı",
+        "street_view": "https://www.google.com/maps/@40.9807942,28.8731819,3a,75y,289.11h,98.51t/data=!3m6!1e1!3m4!1sqeU-kMwUVS4V_6CiBO4aPQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Novotny'lerin Konağı",
@@ -463,7 +492,8 @@
         "current_local": "Zeytinlik",
         "current_status": "Restoran",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9740452,28.8742283,3a,75y,219.18h,94.63t/data=!3m7!1e1!3m5!1shrnn_H4aI3Meb3WiW1CA-Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dhrnn_H4aI3Meb3WiW1CA-Q%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D259.10043%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Abdülmecit Han Çeşmesi",
@@ -476,7 +506,8 @@
         "current_local": "Yeşilköy",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9580045,28.820827,3a,25.9y,300.09h,91.74t/data=!3m7!1e1!3m5!1szwFb8ZBm0YYIRyVMjEbYWw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DzwFb8ZBm0YYIRyVMjEbYWw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D266.6765%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ahmet İhsan Tokgöz Köşkü",
@@ -485,11 +516,12 @@
         "start_date": 1880,
         "end_date": 1922,
         "category": "Sivil Yapı",
-        "location": "40.95996117655912,\n28.82770889308722",
+        "location": "40.95998489880916, 28.82768460002285",
         "current_local": "Yeşilköy",
         "current_status": "Müstakil",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.959972,28.8277067,3a,39.3y,333.11h,101.66t/data=!3m7!1e1!3m5!1sNWracWXi9PqxQMr6oAypfA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DNWracWXi9PqxQMr6oAypfA%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D10.623222%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ali Paşa Çeşmesi",
@@ -502,13 +534,14 @@
         "current_local": "Yenimahalle",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Çeşme"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9808875,28.885601,3a,23.1y,332.82h,77.27t/data=!3m7!1e1!3m5!1souBmc-hJWk81eJAzRilcyg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DouBmc-hJWk81eJAzRilcyg%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D243.05948%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ayamama Köprüsü",
         "description": "Ayamama Köprüsü diğer adıyla Odabaşı Köprüsü; Bakırköy, Bahçelievler ve Küçükçekmece ilçeleri içerisinde bulunan Ayamama Deresi üzerindeki 500 yıllık Mimar Sinan'ın eseri olan üç gözlü köprüdür. ",
         "image": "https://im.haberturk.com/l/2019/12/17/ver1576574604/2550279/jpg/640x360 , https://im.haberturk.com/2019/12/17/2550279_2bf38ba587e2d1eb392b4db80a5f9d96.jpg",
-        "start_date": 1701,
+        "start_date": 1501,
         "end_date": 1922,
         "category": "Ulaşım ",
         "location": "40.98695961988162,\n28.836553454193933",
@@ -523,11 +556,12 @@
         "start_date": 1801,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.95699496987996,\n28.821333833476473",
+        "location": "40.95744459558509, 28.82157531801159",
         "current_local": "Yeşilköy",
         "current_status": "Müstakil",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Ayazma"
+        "optimization": "Ayazma",
+        "street_view": "https://www.google.com/maps/@40.9576388,28.8213575,3a,75y,154.59h,100.1t/data=!3m7!1e1!3m5!1sit5R0ZJICruja5dCgO5Q9A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dit5R0ZJICruja5dCgO5Q9A%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D148.89851%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ataköy Baruthanesi Su Kulesi",
@@ -536,11 +570,12 @@
         "start_date": 1792,
         "end_date": 1922,
         "category": "Sınai Yapı",
-        "location": "40.9776326744188,\n28.852393602403424",
+        "location": "40.97760232906302, 28.852384452017624",
         "current_local": "Ataköy",
         "current_status": "Kalıntı",
         "icon": "https://i.ibb.co/tHVSy4t/4753968.png",
-        "optimization": "Su Kulesi"
+        "optimization": "Su Kulesi",
+        "street_view": "https://www.google.com/maps/@40.9776174,28.8522613,3a,75y,83.12h,99.58t/data=!3m7!1e1!3m5!1sPu6kcL2yXvo8JGbvq5VSTA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DPu6kcL2yXvo8JGbvq5VSTA%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D175.82799%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Bezmialem Valide Sultan Namazgahı",
@@ -553,7 +588,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Namazgâh"
+        "optimization": "Namazgâh",
+        "street_view": "https://www.google.com/maps/@40.9581423,28.8207417,3a,75y,222.9h,104.47t/data=!3m6!1e1!3m4!1sM9hVL4jReNTm47h3jBzqJA!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Hava Kuvvetleri Hangarı",
@@ -562,7 +598,7 @@
         "start_date": 1912,
         "end_date": 1922,
         "category": "Askeri Yapı",
-        "location": "40.9631047056711,\n28.82613175420127",
+        "location": "40.964139240246055, 28.826204182758143",
         "current_local": "Yeşilköy",
         "current_status": "Müze",
         "icon": "https://i.ibb.co/vxbhThS/3921922.png",
@@ -579,12 +615,13 @@
         "current_local": "Yenimahalle",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9805543,28.8788834,3a,75y,244.72h,115.89t/data=!3m7!1e1!3m5!1s3y9LLO6qq1TPc4UGQ9LrMw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D3y9LLO6qq1TPc4UGQ9LrMw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D329.36462%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Taş Köprü",
         "description": "1864 yılında İstanbul'a gelen şehircilik uzmanı Kont Aleon 1865'te Marsilya'dan getirtiği tuğlalar ile\nyazlık evinin ve tren yolunun üzerinde bir taş köprünün inşaasına başlar, 1987 yılına kadar bu köprü mevcudiyetini korur. Günümüzde taş köprü yıkılmış olsa da, aynı yerde inşa edilmiş \nbir başka köprü ile bu sokağı Park Önü Sokak ile Kartaltepe'ye bağlar.",
-        "image": "https://scontent.fist6-1.fna.fbcdn.net/v/t31.18172-8/11076697_817820751606118_8884439987021736095_o.jpg?_nc_cat=102&ccb=1- , https://pbs.twimg.com/media/EbDkCq5X0AA5Pzc?format=jpg&name=largehttps://pbs.twimg.com/media/EbDkCq- ,WoAAM8in?format=jpg&name=small7&_nc_sid=0327a3&_nc_ohc=pPeAGSB6wAsQ7kNvgHIbwc-&_nc_ht=scontent.fist6-1.fna&oh=00_AYDI3NCoh5C8F4y6rxxddCOGZiwlf0tdVxgRsd8ilq5aaw&oe=66A2C136 , ",
+        "image": "https://scontent.fist6-1.fna.fbcdn.net/v/t31.18172-8/11076697_817820751606118_8884439987021736095_o.jpg?_nc_cat=102&ccb=1- , https://pbs.twimg.com/media/EbDkCq5X0AA5Pzc?format=jpg&name=largehttps://pbs.twimg.com/media/EbDkCq- ,WoAAM8in?format=jpg&name=small7&_nc_sid=0327a3&_nc_ohc=pPeAGSB6wAsQ7kNvgHIbwc-&_nc_ht=scontent.fist6-1.fna&oh=00_AYDI3NCoh5C8F4y6rxxddCOGZiwlf0tdVxgRsd8ilq5aaw&oe=66A2C136 , https://lh4.googleusercontent.com/proxy/lOIqca64Rrs_Aw6qrrQfkaJgqOisHOaugB1rI3ywNct7SyJnyKmPZHkzTeauodiCaFUQjOFGMclzWxs_Ivx7j_-f6p_wB3y6a3uGX-i0lsZAgA-BC5sGX3B_QbAENCQQO4SRuZCHrqRCNR0fJeYZUcLQ2G1LZGRSDLiNBWyyN8vNvwoJPjUgKgA1Enk4Aw4ktJ4",
         "start_date": 1865,
         "end_date": 1922,
         "category": "Ulaşım",
@@ -592,7 +629,8 @@
         "current_local": "Yenimahalle",
         "current_status": "Kaybolan Miras",
         "icon": "https://i.ibb.co/SnD56q5/291158.png",
-        "optimization": "Köprü"
+        "optimization": "Köprü",
+        "street_view": "https://www.google.com/maps/@40.9814649,28.8783095,3a,81.7y,171.32h,81.75t/data=!3m6!1e1!3m4!1sBYIfLGLYZ8iux6qrOS8yvQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Mecidiye Camii",
@@ -605,7 +643,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Camii"
+        "optimization": "Camii",
+        "street_view": "https://www.google.com/maps/@40.9606661,28.8310633,3a,75y,123.57h,105.26t/data=!3m6!1e1!3m4!1sPkyqbIVDCCtyRH_RfmzfGA!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Simenoğlu Köşkü",
@@ -618,7 +657,8 @@
         "current_local": "Yeşilköy",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9580846,28.8277328,3a,22.1y,26.19h,100.73t/data=!3m7!1e1!3m5!1sD_YQTTgjZ1cT4pmdUXxb0Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DD_YQTTgjZ1cT4pmdUXxb0Q%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D11.49826%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Surp Stepanos Ermeni Kilisesi Çeşmesi",
@@ -644,7 +684,8 @@
         "current_local": "Cevizlik",
         "current_status": "Çeşme",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Çeşme"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9785503,28.8750811,3a,75y,8.34h,97.21t/data=!3m6!1e1!3m4!1szUFlm8QGgJkD3yuHF7L2Og!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Yeşilköy Feneri",
@@ -657,7 +698,8 @@
         "current_local": "Yeşilyurt",
         "current_status": "Fener",
         "icon": "https://i.ibb.co/RgBGzmS/2325380.png",
-        "optimization": "Fener"
+        "optimization": "Fener",
+        "street_view": "https://www.google.com/maps/@40.9580882,28.8390013,3a,22.4y,354.03h,105.17t/data=!3m6!1e1!3m4!1sgPb6WyTGhMQ05G4OzZx4vQ!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Agios Stefanos Rum Ortodoks Kilisesi",
@@ -670,7 +712,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Rum Ortodoks Kilisesi"
+        "optimization": "Rum Ortodoks Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.9570144,28.8212458,3a,75y,71.97h,104.89t/data=!3m7!1e1!3m5!1suWp7HWlZihxtal5tkslEzA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DuWp7HWlZihxtal5tkslEzA%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D181.3953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ayios Yeoryios Kilisesi",
@@ -683,7 +726,8 @@
         "current_local": "Cevizlik",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Rum Ortodoks Kilisesi"
+        "optimization": "Rum Ortodoks Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.977265,28.8747557,3a,75y,70.42h,100.35t/data=!3m7!1e1!3m5!1s-sZxmN-HGIBZTg9gCdiakg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-sZxmN-HGIBZTg9gCdiakg%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D338.326%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Hristos Analipsis Rum Ortodoks Kilisesi",
@@ -692,11 +736,12 @@
         "start_date": 1890,
         "end_date": 1922,
         "category": "Dini Yapı",
-        "location": "40.98287054897085,\n28.874745791873238",
+        "location": "40.98281409631926, 28.8748594191667",
         "current_local": "Kartaltepe",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Rum Ortodoks Kilisesi"
+        "optimization": "Rum Ortodoks Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.982702,28.8745899,3a,20.7y,48.57h,98.56t/data=!3m6!1e1!3m4!1sMSBaeS7ovdk-vRJGRsyWxg!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "St. Etienne Latin Katolik Kilisesi",
@@ -709,7 +754,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Latin Katolik Kilisesi"
+        "optimization": "Latin Katolik Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.9577475,28.8216134,3a,75y,113.35h,118.27t/data=!3m6!1e1!3m4!1sXlsLaaSiGlwic_r_24K4pA!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Surp Stepanos Ermeni Kilisesi",
@@ -722,7 +768,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Ssmgcyq/1443236.png",
-        "optimization": "Ermeni Kilisesi"
+        "optimization": "Ermeni Kilisesi",
+        "street_view": "https://www.google.com/maps/@40.9567901,28.8204457,3a,90y,17.11h,102.31t/data=!3m6!1e1!3m4!1skJZn1m6aKxpeIDJEYyzW8w!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Süryani Mezarlığı",
@@ -735,7 +782,8 @@
         "current_local": "Yeşilköy",
         "current_status": "İbadet",
         "icon": "https://i.ibb.co/Kj3WKWQ/5749028.png",
-        "optimization": "Süryani Mezarlığı"
+        "optimization": "Süryani Mezarlığı",
+        "street_view": "https://www.google.com/maps/@40.9600418,28.8244179,3a,75y,149.93h,89.43t/data=!3m6!1e1!3m4!1sNoIinR3-xJlvCSsYTjD4PQ!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Yeşilköy Rum İlkokulu",
@@ -747,7 +795,8 @@
         "current_local": "Yeşiköy",
         "current_status": "Eğitim",
         "icon": "https://i.ibb.co/hYCcZYN/school-sharp-512.webp",
-        "optimization": "Rum Okulu"
+        "optimization": "Rum Okulu",
+        "street_view": "https://www.google.com/maps/@40.9582429,28.8206636,3a,51.7y,261.12h,94.83t/data=!3m6!1e1!3m4!1s1UXBVP1cgFouWR2DTtlpoQ!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Ayastefanos Rus Anıtı",
@@ -760,7 +809,8 @@
         "current_local": "Şenlikköy",
         "current_status": "Yıkıldı",
         "icon": "https://i.ibb.co/2dtqxMv/6055626.png",
-        "optimization": "Anıt Mezarlık"
+        "optimization": "Anıt Mezarlık",
+        "street_view": "https://www.google.com/maps/@40.9826917,28.7883095,3a,85.9y,347.13h,95.79t/data=!3m6!1e1!3m4!1s5r8FoY6SwHhCAYOskbEdww!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Demirciler Çarşısı",
@@ -773,7 +823,8 @@
         "current_local": "Cevizlik",
         "current_status": "Ticaret",
         "icon": "https://i.ibb.co/Z1kP143/7210856.png",
-        "optimization": "Çarşı"
+        "optimization": "Çarşı",
+        "street_view": "https://www.google.com/maps/@40.9792235,28.8755623,3a,75y,224.14h,92.75t/data=!3m6!1e1!3m4!1szQ9o7F3ezTGW5Icm0TSNig!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Semprini Evleri",
@@ -786,7 +837,8 @@
         "current_local": "Yeşilköy",
         "current_status": "Müstakil",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9615098,28.8245386,3a,75y,124h,113.72t/data=!3m6!1e1!3m4!1s0VXKYRPqJgx9czJrgesi0w!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Florya Eski Cami",
@@ -799,7 +851,8 @@
         "current_local": "Florya",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/9h4Gvyg/9807986.png",
-        "optimization": "Camii"
+        "optimization": "Camii",
+        "street_view": "https://www.google.com/maps/@40.9808389,28.795147,3a,75y,108.04h,96.57t/data=!3m6!1e1!3m4!1saTVSf5hhkWI_sFZxttWpUA!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Şenlikköy Meydan Çeşmesi",
@@ -811,7 +864,8 @@
         "current_local": "Şenlikköy",
         "current_status": "Kullanılmıyor",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Çeşme"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9808278,28.7939842,3a,15y,47.74h,87.09t/data=!3m6!1e1!3m4!1s1EiQRYxtdfBu0LOW3YCLcw!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Florya Av Köşkü",
@@ -824,7 +878,8 @@
         "current_local": "Florya",
         "current_status": "Kafetarya",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9808498,28.7932325,3a,75y,349.66h,112t/data=!3m6!1e1!3m4!1sMTB0F8rkZxsYLxne7Zju7g!2e0!7i13312!8i6656?coh=205409&entry=ttu"
     },
     {
         "name": "Reşadiye Köprüsü",
@@ -850,7 +905,8 @@
         "current_local": "Zuhuratbaba",
         "current_status": "Müstakil",
         "icon": "https://i.ibb.co/f8NVNqg/8250171.png",
-        "optimization": "Köşk/Konak"
+        "optimization": "Köşk/Konak",
+        "street_view": "https://www.google.com/maps/@40.9863182,28.8722626,3a,75y,266.07h,96.5t/data=!3m7!1e1!3m5!1sx_ZM_s3PWk2t6iAAircL9A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dx_ZM_s3PWk2t6iAAircL9A%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D341.72052%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Çoban Çeşmesi",
@@ -863,7 +919,8 @@
         "current_local": "Yenimahalle",
         "current_status": "Kaybolan Miras",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Çeşme"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9893059,28.8856865,3a,75y,338.01h,80.61t/data=!3m7!1e1!3m5!1sjFdcvwVL5ell5ZiS1xuehg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DjFdcvwVL5ell5ZiS1xuehg%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D129.50055%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Sığırtmaç Sokağı Çeşmesi",
@@ -873,9 +930,10 @@
         "category": "Sosyal Yapı",
         "location": "40.99498552374965,\n28.88500089773686",
         "current_local": "Osmaniye",
-        "current_status": "Çeşme",
+        "current_status": "Kaybolan Miras",
         "icon": "https://i.ibb.co/SQBgkPc/12213801.png",
-        "optimization": "Çeşme"
+        "optimization": "Çeşme",
+        "street_view": "https://www.google.com/maps/@40.9948585,28.8853503,3a,46.9y,36.13h,75.73t/data=!3m6!1e1!3m4!1syqtFsy3pdDUYWSDNpnPrrQ!2e0!7i16384!8i8192?coh=205409&entry=ttu"
     },
     {
         "name": "Ayamama Bostanı",
@@ -1087,55 +1145,5 @@
         "current_status": "Kaybolan Miras",
         "icon": "https://i.ibb.co/tHVSy4t/4753968.png",
         "optimization": "Fabrika"
-    },
-    {
-        "name": "Makriköy ",
-        "location": "40.9780429 , 28.8780161",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Ayastefanos",
-        "location": "40.9597971,  28.8261101 ",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Bağlarbaşı",
-        "location": " 40.9878311, 28.8726392",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Kartaltepe ",
-        "location": "40.9855492,  28.8785078",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Osmaniye Köyü",
-        "location": " 40.9936216, 28.8829639",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Florya",
-        "location": " 40.9757258,  28.7884925 ",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Küçükçekmece Köyü",
-        "location": " 40.9908450,  28.7699850 ",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Baruthane-i Amire",
-        "location": " 40.9838281, 28.8581054",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Zeytinlik",
-        "location": "40.9738451,  28.8739094 ",
-        "optimization": "Yer İsimleri"
-    },
-    {
-        "name": "Zeytinburnu",
-        "location": "40.9842724,  28.9003018",
-        "optimization": "Yer İsimleri"
     }
 ]

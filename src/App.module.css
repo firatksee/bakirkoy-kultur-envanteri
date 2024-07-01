@@ -1,3 +1,32 @@
+.navHeader {
+    width: 100vw;
+    height: 80px;
+    background-color: #f8f8f8;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    z-index: 10000;
+}
+
+.logo {
+    height: 100%;
+    aspect-ratio: 1.93;
+    background: url(./assets/bakirkoy-logo.png);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    gap: 100px;
+}
+
+.nav a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
 .homeSection {
     height: 100vh;
     background: url(./assets/home-bg.jpg);
@@ -29,6 +58,11 @@
     font-size: 24px;
 }
 
+.aboutSection {
+    background: url(./assets/about-bg.png);
+    background-size: cover;
+}
+
 .about {
     min-width: 400px;
     height: 100%;
@@ -38,6 +72,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .about h2 {
@@ -46,8 +81,8 @@
 }
 
 .about p {
-    font-family: BritannicBold;
-    font-size: 28px;
+    font-family: Montserrat;
+    font-size: 22px;
 }
 
 .aboutImage {
@@ -64,11 +99,11 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: url(./assets/home-bg.jpg);
+    background: url(./assets/gallery-bg.png);
     background-size: cover;
     position: absolute;
     z-index: -1;
-    filter: blur(5px);
+    /* filter: blur(5px); */
 }
 
 .footer {
@@ -91,18 +126,22 @@
 }
 
 .footerLogo {
-    width: 80px;
     height: 90px;
-    background: url(./assets/bakirkoy-belediye-logo.png);
+    aspect-ratio: 1.93;
+    background: url(./assets/bakirkoy-logo-white.png);
     background-size: cover;
 }
 
-.row {
+.aboutTextContainer {
+    width: 640px;
     display: flex;
     align-items: center;
     gap: 40px;
+    position: absolute;
+    bottom: 12%;
+    right: 6%;
 }
 
-.row > * {
+.aboutTextContainer > * {
     flex: 1;
 }

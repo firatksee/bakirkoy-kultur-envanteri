@@ -30,3 +30,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.p-slider-handle {
+    transform: translate(-50%, -50%);
+}

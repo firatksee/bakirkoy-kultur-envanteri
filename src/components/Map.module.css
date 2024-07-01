@@ -8,7 +8,7 @@
 
 .mapContainer {
     width: 80%;
-    height: 80%;
+    height: 84%;
     display: flex;
     border: 1px solid #0002;
     box-shadow: 0 0 10px #8888;
@@ -23,14 +23,38 @@
 
 .mapActions {
     flex: 1;
-    padding: 60px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
-.yearIntervalSliderContainer {
+.markerBg {
+    background-color: #fff8;
+    border: 2px solid #0008;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.yearIntervalSlider {
+.layersGroup {
+    background-color: #8884;
+    padding: 8px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.layerItem {
+    width: 72px;
+    height: 72px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #777;
+    cursor: pointer;
 }
