@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/bakirkoy-kultur-envanteri/static/css/main.fc4ebd8e.css",
-    "main.js": "/bakirkoy-kultur-envanteri/static/js/main.ad36a8b2.js",
-    "static/media/bakirkoy.jpg": "/bakirkoy-kultur-envanteri/static/media/bakirkoy.dbdf00fc9336f06817a7.jpg",
+    "main.css": "/bakirkoy-kultur-envanteri/static/css/main.37bcc319.css",
+    "main.js": "/bakirkoy-kultur-envanteri/static/js/main.36b69df5.js",
+    "static/media/about-bg.png": "/bakirkoy-kultur-envanteri/static/media/about-bg.b9c2b6ccb464a3d03c40.png",
+    "static/media/APLEH062.jpg": "/bakirkoy-kultur-envanteri/static/media/APLEH062.dbdf00fc9336f06817a7.jpg",
+    "static/media/Hrt_000432.jpg": "/bakirkoy-kultur-envanteri/static/media/Hrt_000432.a84425a52442397d339a.jpg",
+    "static/media/Hrt_000433.jpg": "/bakirkoy-kultur-envanteri/static/media/Hrt_000433.84138bb154025875d92c.jpg",
+    "static/media/Hrt_000434.jpg": "/bakirkoy-kultur-envanteri/static/media/Hrt_000434.152ab735cda73eb0902c.jpg",
+    "static/media/gallery-bg.png": "/bakirkoy-kultur-envanteri/static/media/gallery-bg.7081e88c6d3b646086c4.png",
+    "static/media/APLEH018A.jpg": "/bakirkoy-kultur-envanteri/static/media/APLEH018A.9ef7ede742f0d3b49bc2.jpg",
     "static/media/home-bg.jpg": "/bakirkoy-kultur-envanteri/static/media/home-bg.7355526f6bc6266911f6.jpg",
     "static/media/primeicons.svg": "/bakirkoy-kultur-envanteri/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/about.jpg": "/bakirkoy-kultur-envanteri/static/media/about.7c84f60375efe7807c2b.jpg",
@@ -11,21 +17,18 @@
     "static/media/primeicons.eot": "/bakirkoy-kultur-envanteri/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
     "static/media/primeicons.woff": "/bakirkoy-kultur-envanteri/static/media/primeicons.8931fda1930c3bd21e96.woff",
     "static/media/primeicons.ttf": "/bakirkoy-kultur-envanteri/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/bakirkoy-logo.png": "/bakirkoy-kultur-envanteri/static/media/bakirkoy-logo.16a90da9c2d90a16eac1.png",
     "static/media/BritannicBold.ttf": "/bakirkoy-kultur-envanteri/static/media/BritannicBold.ff31bfe5b8390eca3b38.ttf",
     "static/media/Broadway.ttf": "/bakirkoy-kultur-envanteri/static/media/Broadway.2771bb115aead2c34caa.ttf",
     "static/media/primeicons.woff2": "/bakirkoy-kultur-envanteri/static/media/primeicons.024b32cc7bf399b1a847.woff2",
-    "static/media/bakirkoy-belediye-logo.png": "/bakirkoy-kultur-envanteri/static/media/bakirkoy-belediye-logo.bef891618dccb81d6a0b.png",
-    "static/media/church-location.png": "/bakirkoy-kultur-envanteri/static/media/church-location.75e72a623cd05e793edb.png",
-    "static/media/mosque-location.png": "/bakirkoy-kultur-envanteri/static/media/mosque-location.b4c0c398e6d4f285a67b.png",
-    "static/media/synagogue-location.png": "/bakirkoy-kultur-envanteri/static/media/synagogue-location.521e9cd5affab2c190bc.png",
-    "static/media/cemetery-location.png": "/bakirkoy-kultur-envanteri/static/media/cemetery-location.f2275e5214319dc320b5.png",
+    "static/media/bakirkoy-logo-white.png": "/bakirkoy-kultur-envanteri/static/media/bakirkoy-logo-white.b9c96a08292c5d7047e8.png",
     "static/media/location.png": "/bakirkoy-kultur-envanteri/static/media/location.86a3db5a9b39a825d25f.png",
     "index.html": "/bakirkoy-kultur-envanteri/index.html",
-    "main.fc4ebd8e.css.map": "/bakirkoy-kultur-envanteri/static/css/main.fc4ebd8e.css.map",
-    "main.ad36a8b2.js.map": "/bakirkoy-kultur-envanteri/static/js/main.ad36a8b2.js.map"
+    "main.37bcc319.css.map": "/bakirkoy-kultur-envanteri/static/css/main.37bcc319.css.map",
+    "main.36b69df5.js.map": "/bakirkoy-kultur-envanteri/static/js/main.36b69df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc4ebd8e.css",
-    "static/js/main.ad36a8b2.js"
+    "static/css/main.37bcc319.css",
+    "static/js/main.36b69df5.js"
   ]
 }
