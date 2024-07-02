@@ -12,8 +12,8 @@
 
 .logo {
     height: 100%;
-    aspect-ratio: 1.93;
-    background: url(./assets/bakirkoy-logo.png);
+    aspect-ratio: 1;
+    background: url(./assets/makrikoy-logo.png);
     background-size: cover;
 }
 

@@ -50,8 +50,8 @@ export default function App() {
                 <Map />
             </section>
             <footer id='footer' className={classes.footer}>
-                <div className={classes.footerLogo} />
-                <div id='contributors'>
+                {/* <div className={classes.footerLogo} /> */}
+                <div id='contributors' className='ml-auto'>
                     <p className={`${classes.footerText} ${classes.footerTitle}`}>HAZIRLAYANLAR</p>
                     <p className={classes.footerText}>Burak KAYA - Tarihçi</p>
                     <p className={classes.footerText}>Derin Can DAL - Harita Mühendisi</p>
