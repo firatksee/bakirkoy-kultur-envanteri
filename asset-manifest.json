@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d02b3747.css",
-    "main.js": "/static/js/main.b8b6725c.js",
+    "main.css": "/static/css/main.50054ddf.css",
+    "main.js": "/static/js/main.5b32e2df.js",
     "static/media/about-bg.png": "/static/media/about-bg.b9c2b6ccb464a3d03c40.png",
-    "static/media/makrikoy-logo-horizontal.png": "/static/media/makrikoy-logo-horizontal.b52f379fc4d08d1529a1.png",
     "static/media/APLEH062.jpg": "/static/media/APLEH062.dbdf00fc9336f06817a7.jpg",
     "static/media/Hrt_000432.jpg": "/static/media/Hrt_000432.a84425a52442397d339a.jpg",
     "static/media/Hrt_000433.jpg": "/static/media/Hrt_000433.84138bb154025875d92c.jpg",
     "static/media/Hrt_000434.jpg": "/static/media/Hrt_000434.152ab735cda73eb0902c.jpg",
     "static/media/gallery-bg.png": "/static/media/gallery-bg.7081e88c6d3b646086c4.png",
     "static/media/APLEH018A.jpg": "/static/media/APLEH018A.9ef7ede742f0d3b49bc2.jpg",
+    "static/media/makrikoy-logo-horizontal.png": "/static/media/makrikoy-logo-horizontal.8897ae2fd338ced4858b.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.7355526f6bc6266911f6.jpg",
     "static/media/primeicons.svg": "/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/about.jpg": "/static/media/about.7c84f60375efe7807c2b.jpg",
@@ -24,11 +24,11 @@
     "static/media/primeicons.woff2": "/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "static/media/location.png": "/static/media/location.86a3db5a9b39a825d25f.png",
     "index.html": "/index.html",
-    "main.d02b3747.css.map": "/static/css/main.d02b3747.css.map",
-    "main.b8b6725c.js.map": "/static/js/main.b8b6725c.js.map"
+    "main.50054ddf.css.map": "/static/css/main.50054ddf.css.map",
+    "main.5b32e2df.js.map": "/static/js/main.5b32e2df.js.map"
   },
   "entrypoints": [
-    "static/css/main.d02b3747.css",
-    "static/js/main.b8b6725c.js"
+    "static/css/main.50054ddf.css",
+    "static/js/main.5b32e2df.js"
   ]
 }
