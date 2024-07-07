@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { useQuery } from "@tanstack/react-query";
 
 import { MapContainer, Marker, Popup, TileLayer, ImageOverlay } from "react-leaflet";
 import { latLngBounds, Icon, tooltip } from "leaflet";
@@ -11,6 +12,7 @@ import { Accordion, AccordionTab } from "primereact/accordion";
 import { Slider } from "primereact/slider";
 import { Checkbox } from "primereact/checkbox";
 import { PanelMenu } from "primereact/panelmenu";
+import { Tree } from "primereact/tree";
 import { Badge } from "primereact/badge";
 import { Button } from "primereact/button";
 import { Tooltip } from "primereact/tooltip";
@@ -20,7 +22,7 @@ import { IoChevronDown, IoChevronForward } from "react-icons/io5";
 import { RxQuestionMarkCircled } from "react-icons/rx";
 import { TbView360Number } from "react-icons/tb";
 
-import initialData from "./../data/data.json";
+import { sendRequest } from "../util/http";
 
 import classes from "./Map.module.css";
 
@@ -34,8 +36,8 @@ import Hrt_000434 from "../assets/maps/Hrt_000434.jpg";
 
 const maps = [
     {
-        map: APLEH018A,
-        tooltip: "Makriköy ve Çevresi [1/25.000]",
+        map: APLEH062,
+        tooltip: "Makriköy ve Çevresi [1/25.000], 1914-15",
         bounds: [
             [41.0505859, 28.7492441],
             [40.9450737, 28.9128966],
@@ -43,17 +45,18 @@ const maps = [
         zoom: 13.1,
     },
     {
-        map: APLEH062,
-        tooltip: "Makriköy ve Çevresi [1/25.000]",
+        map: APLEH018A,
+        tooltip: "Makriköy ve Çevresi [1/25.000], 1912-13",
         bounds: [
             [41.0505859, 28.7492441],
             [40.9450737, 28.9128966],
         ],
         zoom: 13.1,
     },
+
     {
         map: Hrt_000432,
-        tooltip: "Ayastefanos [1/5.000]",
+        tooltip: "Ayastefanos [1/5.000], 1918",
         bounds: [
             [40.9681227, 28.8095541],
             [40.9526765, 28.8410442],
@@ -62,7 +65,7 @@ const maps = [
     },
     {
         map: Hrt_000433,
-        tooltip: "Makriköy'ün Kuzeyi [1/5.000]",
+        tooltip: "Makriköy'ün Kuzeyi [1/5.000], 1918",
         bounds: [
             [40.9898254, 28.8628916],
             [40.9766903, 28.8932927],
@@ -71,7 +74,7 @@ const maps = [
     },
     {
         map: Hrt_000434,
-        tooltip: "Makriköy'ün Güneyi [1/5.000]",
+        tooltip: "Makriköy'ün Güneyi [1/5.000], 1918",
         bounds: [
             [40.979429, 28.8631314],
             [40.9700284, 28.8865827],
@@ -209,6 +212,155 @@ const filterItems = (itemRenderer) => [
     },
 ];
 
+const nodes = [
+    { key: "İdari Yapılar", label: "İdari Yapılar", children: [{ key: "İdari Yapı", label: "İdari Yapı" }] },
+    {
+        key: "Sosyal Yapılar",
+        label: "Sosyal Yapılar",
+        children: [
+            { key: "Çeşme", label: "Çeşme" },
+            { key: "Hamam", label: "Hamam" },
+            { key: "Gazino", label: "Gazino" },
+            { key: "Hipodrom", label: "Hipodrom" },
+            { key: "Çarşı", label: "Çarşı" },
+        ],
+    },
+    {
+        key: "Dini Yapılar",
+        label: "Dini Yapılar",
+        children: [
+            {
+                key: "İbadethane",
+                label: "İbadethane",
+                children: [
+                    { key: "Camii", label: "Camii" },
+                    {
+                        key: "Kilise",
+                        label: "Kilise",
+                        children: [
+                            { key: "Ermeni Kilisesi", label: "Ermeni Kilisesi" },
+                            { key: "Rum Ortodoks Kilisesi", label: "Rum Ortodoks Kilisesi" },
+                            { key: "Latin Katolik Kilisesi", label: "Latin Katolik Kilisesi" },
+                        ],
+                    },
+                    { key: "Sinagog", label: "Sinagog" },
+                ],
+            },
+            {
+                key: "Mezarlık",
+                label: "Mezarlık",
+                children: [
+                    { key: "Müslüman Mezarlığı", label: "Müslüman Mezarlığı" },
+                    { key: "Ermeni Mezarlığı", label: "Ermeni Mezarlığı" },
+                    { key: "Rum Mezarlığı", label: "Rum Mezarlığı" },
+                    { key: "Süryani Mezarlığı", label: "Süryani Mezarlığı" },
+                    { key: "Anıt Mezarlık", label: "Anıt Mezarlık" },
+                    { key: "Türbe", label: "Türbe" },
+                ],
+            },
+            {
+                key: "Dini Yapılar Diğer",
+                label: "Dini Yapılar Diğer",
+                children: [
+                    { key: "Namazgâh", label: "Namazgâh" },
+                    { key: "Ayazma", label: "Ayazma" },
+                    { key: "Kilise Evi", label: "Kilise Evi" },
+                ],
+            },
+        ],
+    },
+    {
+        key: "Sınai Yapılar",
+        label: "Sınai Yapılar",
+        children: [
+            { key: "Fabrika", label: "Fabrika" },
+            { key: "Maden Ocağı", label: "Maden Ocağı" },
+            { key: "Su Kulesi", label: "Su Kulesi" },
+        ],
+    },
+    {
+        key: "Askeri Yapılar",
+        label: "Askeri Yapılar",
+        children: [
+            { key: "Baruthane", label: "Baruthane" },
+            { key: "Kışla", label: "Kışla" },
+            { key: "Karakol", label: "Karakol" },
+            { key: "Hangar", label: "Hangar" },
+        ],
+    },
+    {
+        key: "Ulaşım Yapıları",
+        label: "Ulaşım Yapıları",
+        children: [
+            { key: "Köprü", label: "Köprü" },
+            { key: "Fener", label: "Fener" },
+            { key: "İskele", label: "İskele" },
+            { key: "İstasyon", label: "İstasyon" },
+            { key: "Demiryolu Binası", label: "Demiryolu Binası" },
+        ],
+    },
+    {
+        key: "Sivil Yapılar",
+        label: "Sivil Yapılar",
+        children: [
+            { key: "Köşk/Konak", label: "Köşk/Konak" },
+            { key: "Anıt", label: "Anıt" },
+        ],
+    },
+    {
+        key: "Eğitim Yapıları",
+        label: "Eğitim Yapıları",
+        children: [
+            {
+                key: "Okul",
+                label: "Okul",
+                children: [
+                    { key: "Müslüman Okulu", label: "Müslüman Okulu" },
+                    { key: "Ermeni Okulu", label: "Ermeni Okulu" },
+                    { key: "Rum Okulu", label: "Rum Okulu" },
+                    { key: "Fransız Okulu", label: "Fransız Okulu" },
+                ],
+            },
+        ],
+    },
+    {
+        key: "Zirai Bölgeler",
+        label: "Zirai Bölgeler",
+        children: [
+            { key: "Çiftlik", label: "Çiftlik" },
+            { key: "Bostan", label: "Bostan" },
+        ],
+    },
+    {
+        key: "Tabiat",
+        label: "Tabiat",
+        children: [
+            { key: "Koru", label: "Koru" },
+            { key: "Dere", label: "Dere" },
+        ],
+    },
+];
+
+function extractKeys(nodes) {
+    let keys = [];
+
+    function recurse(nodes) {
+        for (const node of nodes) {
+            if (node.key) {
+                keys.push(node.key);
+            }
+            if (node.children) {
+                recurse(node.children);
+            }
+        }
+    }
+
+    recurse(nodes);
+    return keys;
+}
+
+const initialFilterKeywords = extractKeys(nodes);
+
 export default function Map() {
     const mapRef = useRef(null);
     const [selectedItem, setSelectedItem] = useState({});
@@ -219,6 +371,12 @@ export default function Map() {
 
     const [activeMap, setActiveMap] = useState(maps[0]);
 
+    const initialSelectedKeys = {};
+    for (let i = 0; i < initialFilterKeywords.length; i++)
+        initialSelectedKeys[initialFilterKeywords[i]] = { checked: true, partialChecked: false };
+
+    const [selectedKeys, setSelectedKeys] = useState(initialSelectedKeys);
+
     useEffect(() => {
         mapRef?.current?.setView(
             [(activeMap.bounds[0][0] + activeMap.bounds[1][0]) / 2, (activeMap.bounds[0][1] + activeMap.bounds[1][1]) / 2],
@@ -226,6 +384,12 @@ export default function Map() {
         );
         mapRef?.current?.setMaxBounds(activeMap.bounds);
     }, [activeMap]);
+
+    const { data: initialData } = useQuery({
+        queryKey: ["locations"],
+        queryFn: () => sendRequest({ api: "locations.json" }),
+        initialData: [],
+    });
 
     const markerClickHandler = (item) => {
         setSelectedItem(item);
@@ -271,6 +435,44 @@ export default function Map() {
             <div className={classes.sectionWrapper}>
                 <div className={classes.mapContainer}>
                     <div className={classes.mapActions}>
+                        <div className='flex gap-2'>
+                            <div className={classes.layersGroup}>
+                                <h6>Erkân-ı Harbiye-i Umumiye Matbaası</h6>
+                                <div className='flex gap-2'>
+                                    {maps.slice(0, 2).map((item, index) => (
+                                        <>
+                                            <Tooltip target='.tooltipTarget' />
+                                            <img
+                                                key={index}
+                                                src={item.map}
+                                                className={`${classes.layerItem} tooltipTarget`}
+                                                onClick={() => setActiveMap(maps[index])}
+                                                data-pr-tooltip={item.tooltip}
+                                                data-pr-position='bottom'
+                                            />
+                                        </>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className={classes.layersGroup}>
+                                <h6>Nedjib Bey Haritaları</h6>
+                                <div className='flex gap-2'>
+                                    {maps.slice(2).map((item, index) => (
+                                        <>
+                                            <Tooltip target='.tooltipTarget' />
+                                            <img
+                                                key={index}
+                                                src={item.map}
+                                                className={`${classes.layerItem} tooltipTarget`}
+                                                onClick={() => setActiveMap(maps[index + 2])}
+                                                data-pr-tooltip={item.tooltip}
+                                                data-pr-position='bottom'
+                                            />
+                                        </>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <Tooltip target='.tooltipTarget' />
                             <div className='flex gap-2 align-items-center mb-3'>
@@ -292,55 +494,32 @@ export default function Map() {
                                     className='btn btn-info flex gap-2'
                                     label='Tümünü Ekle'
                                     icon='pi pi-check'
-                                    onClick={() => setFilterOutKeywords([])}
+                                    onClick={() => {
+                                        setFilterOutKeywords([]);
+                                        setSelectedKeys(initialSelectedKeys);
+                                    }}
                                 />
                                 <Button
                                     className='btn btn-danger flex gap-2'
                                     label='Tümünü Kaldır'
                                     icon='pi pi-times'
-                                    onClick={() => setFilterOutKeywords(initialData.map((item) => item.optimization))}
+                                    onClick={() => {
+                                        setFilterOutKeywords(initialData.map((item) => item.optimization));
+                                        setSelectedKeys({});
+                                    }}
                                 />
                             </div>
-                            <PanelMenu model={filterItems(itemRenderer)} className='w-full md:w-20rem flex flex-column gap-1' />
-                        </div>
-
-                        <div className='flex gap-2'>
-                            <div className={classes.layersGroup}>
-                                <h6>Erkân-ı Harbiye-i Umumiye Matbaası, 1914-15</h6>
-                                <div className='flex gap-2'>
-                                    {maps.slice(0, 2).map((item, index) => (
-                                        <>
-                                            <Tooltip target='.tooltipTarget' />
-                                            <img
-                                                key={index}
-                                                src={item.map}
-                                                className={`${classes.layerItem} tooltipTarget`}
-                                                onClick={() => setActiveMap(maps[index])}
-                                                data-pr-tooltip={item.tooltip}
-                                                data-pr-position='bottom'
-                                            />
-                                        </>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className={classes.layersGroup}>
-                                <h6>Nedjib Bey Haritaları, 1918</h6>
-                                <div className='flex gap-2'>
-                                    {maps.slice(2).map((item, index) => (
-                                        <>
-                                            <Tooltip target='.tooltipTarget' />
-                                            <img
-                                                key={index}
-                                                src={item.map}
-                                                className={`${classes.layerItem} tooltipTarget`}
-                                                onClick={() => setActiveMap(maps[index + 2])}
-                                                data-pr-tooltip={item.tooltip}
-                                                data-pr-position='bottom'
-                                            />
-                                        </>
-                                    ))}
-                                </div>
-                            </div>
+                            {/* <PanelMenu model={filterItems(itemRenderer)} className='w-full md:w-20rem flex flex-column gap-1' /> */}
+                            <Tree
+                                value={nodes}
+                                selectionMode='checkbox'
+                                selectionKeys={selectedKeys}
+                                onSelectionChange={(e) => {
+                                    setSelectedKeys(e.value);
+                                    setFilterOutKeywords(initialFilterKeywords.filter((item) => !e.value[item]?.checked));
+                                }}
+                                className='w-full md:w-30rem'
+                            />
                         </div>
                     </div>
                     <div className={classes.mapWrapper}>

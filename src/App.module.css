@@ -1,6 +1,6 @@
 .navHeader {
     width: 100vw;
-    height: 80px;
+    height: 100px;
     background-color: #f8f8f8;
     position: fixed;
     display: flex;
@@ -11,9 +11,9 @@
 }
 
 .logo {
-    height: 100%;
-    aspect-ratio: 1;
-    background: url(./assets/makrikoy-logo.png);
+    height: 90%;
+    aspect-ratio: 3.6;
+    background: url(./assets/makrikoy-logo-horizontal.png);
     background-size: cover;
 }
 
@@ -24,124 +24,5 @@
 
 .nav a {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
-}
-
-.homeSection {
-    height: 100vh;
-    background: url(./assets/home-bg.jpg);
-    background-size: cover;
-    padding: 80px;
-}
-
-.header {
-    width: 50vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: white;
-    padding: 24px;
-    box-shadow: 0 0 10px gray;
-    border-radius: 4px;
-    font-family: Broadway;
-}
-
-.header h4 {
-    font-family: BritannicBold;
-}
-
-.headerActions {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 24px;
-}
-
-.aboutSection {
-    background: url(./assets/about-bg.png);
-    background-size: cover;
-}
-
-.about {
-    min-width: 400px;
-    height: 100%;
-    text-align: justify;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.about h2 {
-    font-family: Broadway;
-    font-size: 64px;
-}
-
-.about p {
-    font-family: Montserrat;
-    font-size: 22px;
-}
-
-.aboutImage {
-    aspect-ratio: 1.46;
-    background-image: url(./assets/about.jpg);
-    background-size: cover;
-}
-
-.mapSection {
-    height: 100vh;
-}
-
-.mapSection::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: url(./assets/gallery-bg.png);
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
-    /* filter: blur(5px); */
-}
-
-.footer {
-    background: #2b2b2b;
-    padding: 40px 160px;
-    display: flex;
-    gap: 120px;
-}
-
-.footerText {
-    color: #dadada;
     font-size: 20px;
-    font-family: BritannicBold;
-}
-
-.footerTitle {
-    font-size: 24px;
-    font-family: Broadway;
-    text-decoration: underline;
-}
-
-.footerLogo {
-    height: 90px;
-    aspect-ratio: 1.93;
-    background: url(./assets/bakirkoy-logo-white.png);
-    background-size: cover;
-}
-
-.aboutTextContainer {
-    width: 640px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    position: absolute;
-    bottom: 12%;
-    right: 6%;
-}
-
-.aboutTextContainer > * {
-    flex: 1;
 }

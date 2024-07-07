@@ -1,18 +1,14 @@
 import { QueryClient } from "@tanstack/react-query";
 export const queryClient = new QueryClient();
 
-export async function sendRequest({ api, data, token }) {
-    const url = "";
-
-    /*
-        api paths are not appended to the url but are appended to body due to security reasons
-        and token is appended to data object due to same reasons
-    */
+export async function sendRequest({ api, data }) {
+    if (!api) return;
+    const url = "https://makrikoy-61ac8-default-rtdb.europe-west1.firebasedatabase.app/" + api;
 
     const config = {
-        method: "POST", // since our api's include only post requests
+        method: data ? "PUT" : "GET",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ api, data: { ...data, token } }),
+        body: JSON.stringify(data),
     };
 
     const response = await fetch(url, config);
