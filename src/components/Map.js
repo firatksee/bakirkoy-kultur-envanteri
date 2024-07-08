@@ -473,7 +473,7 @@ export default function Map() {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className={classes.sliderContainer}>
                             <Tooltip target='.tooltipTarget' />
                             <div className='flex gap-2 align-items-center mb-3'>
                                 <Chip label={`${yearInterval[0]} - ${yearInterval[1]}`} />
@@ -487,7 +487,6 @@ export default function Map() {
                             </div>
                             <Slider value={yearInterval} onChange={(e) => setYearInterval(e.value)} range min={1453} max={1922} />
                         </div>
-                        <Divider />
                         <div>
                             <div className='flex mb-2 gap-2'>
                                 <Button

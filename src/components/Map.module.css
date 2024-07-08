@@ -40,7 +40,7 @@
 }
 
 .layersGroup {
-    background-color: #8884;
+    background-color: #dfdfdf;
     padding: 8px;
     border-radius: 12px;
     display: flex;
@@ -58,4 +58,10 @@
     border-radius: 10px;
     border: 2px solid #777;
     cursor: pointer;
+}
+
+.sliderContainer {
+    background-color: #dfdfdf;
+    padding: 8px 16px 14px;
+    border-radius: 10px;
 }

@@ -2,6 +2,7 @@ import { RouterProvider } from "react-router-dom";
 import router from "./routes";
 
 import classes from "./App.module.css";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
     return (
@@ -17,7 +18,8 @@ export default function App() {
                     </a>
                 </nav>
             </header>
-            <RouterProvider router={router} />
+            <HomePage />
+            {/* <RouterProvider router={router} /> */}
         </>
     );
 }
