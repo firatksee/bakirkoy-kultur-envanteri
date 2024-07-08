@@ -10,9 +10,9 @@ export default function App() {
             <header className={classes.navHeader}>
                 <a href='/' className={classes.logo} />
                 <nav className={classes.nav}>
-                    <a href='/'>HAKKINDA</a>
-                    <a href='/#map'>GALERİ</a>
-                    <a href='/about'>HAZIRLAYANLAR</a>
+                    <a href='#about'>HAKKINDA</a>
+                    <a href='#map'>GALERİ</a>
+                    <a href='#contributors'>EKİBİMİZ</a>
                     <a href='https://www.bakirkoy.bel.tr/iletisim' target='blank'>
                         BİZE ULAŞIN
                     </a>
