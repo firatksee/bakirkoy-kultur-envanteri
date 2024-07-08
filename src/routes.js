@@ -8,7 +8,7 @@ import Dashboard from "./pages/Dashboard";
 
 export default createBrowserRouter([
     {
-        path: "/bakirkoy-kultur-envanteri",
+        path: "/",
         element: <RootLayout />,
         errorElement: <ErrorPage />,
         children: [
