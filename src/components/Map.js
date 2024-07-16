@@ -11,7 +11,6 @@ import { Chip } from "primereact/chip";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { Slider } from "primereact/slider";
 import { Checkbox } from "primereact/checkbox";
-import { PanelMenu } from "primereact/panelmenu";
 import { Tree } from "primereact/tree";
 import { Badge } from "primereact/badge";
 import { Button } from "primereact/button";
@@ -80,135 +79,6 @@ const maps = [
             [40.9700284, 28.8865827],
         ],
         zoom: 16,
-    },
-];
-
-const filterItems = (itemRenderer) => [
-    { label: "İdari Yapılar", template: itemRenderer, items: [{ label: "İdari Yapı", template: itemRenderer }] },
-    {
-        label: "Sosyal Yapılar",
-        template: itemRenderer,
-        items: [
-            { label: "Çeşme", template: itemRenderer },
-            { label: "Hamam", template: itemRenderer },
-            { label: "Gazino", template: itemRenderer },
-            { label: "Hipodrom", template: itemRenderer },
-            { label: "Çarşı", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Dini Yapılar",
-        template: itemRenderer,
-        items: [
-            {
-                label: "İbadethane",
-                template: itemRenderer,
-                items: [
-                    { label: "Camii", template: itemRenderer },
-                    {
-                        label: "Kilise",
-                        template: itemRenderer,
-                        items: [
-                            { label: "Ermeni Kilisesi", template: itemRenderer },
-                            { label: "Rum Ortodoks Kilisesi", template: itemRenderer },
-                            { label: "Latin Katolik Kilisesi", template: itemRenderer },
-                        ],
-                    },
-                    { label: "Sinagog", template: itemRenderer },
-                ],
-            },
-            {
-                label: "Mezarlık",
-                template: itemRenderer,
-                items: [
-                    { label: "Müslüman Mezarlığı", template: itemRenderer },
-                    { label: "Ermeni Mezarlığı", template: itemRenderer },
-                    { label: "Rum Mezarlığı", template: itemRenderer },
-                    { label: "Süryani Mezarlığı", template: itemRenderer },
-                    { label: "Anıt Mezarlık", template: itemRenderer },
-                    { label: "Türbe", template: itemRenderer },
-                ],
-            },
-            {
-                label: "Diğer",
-                template: itemRenderer,
-                items: [
-                    { label: "Namazgâh", template: itemRenderer },
-                    { label: "Ayazma", template: itemRenderer },
-                    { label: "Kilise Evi", template: itemRenderer },
-                ],
-            },
-        ],
-    },
-    {
-        label: "Sınai Yapılar",
-        template: itemRenderer,
-        items: [
-            { label: "Fabrika", template: itemRenderer },
-            { label: "Maden Ocağı", template: itemRenderer },
-            { label: "Su Kulesi", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Askeri Yapılar",
-        template: itemRenderer,
-        items: [
-            { label: "Baruthane", template: itemRenderer },
-            { label: "Kışla", template: itemRenderer },
-            { label: "Karakol", template: itemRenderer },
-            { label: "Hangar", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Ulaşım Yapıları",
-        template: itemRenderer,
-        items: [
-            { label: "Köprü", template: itemRenderer },
-            { label: "Fener", template: itemRenderer },
-            { label: "İskele", template: itemRenderer },
-            { label: "İstasyon", template: itemRenderer },
-            { label: "Demiryolu Binası", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Sivil Yapılar",
-        template: itemRenderer,
-        items: [
-            { label: "Köşk/Konak", template: itemRenderer },
-            { label: "Anıt", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Eğitim Yapıları",
-        template: itemRenderer,
-        items: [
-            {
-                label: "Okul",
-                template: itemRenderer,
-                items: [
-                    { label: "Müslüman Okulu", template: itemRenderer },
-                    { label: "Ermeni Okulu", template: itemRenderer },
-                    { label: "Rum Okulu", template: itemRenderer },
-                    { label: "Fransız Okulu", template: itemRenderer },
-                ],
-            },
-        ],
-    },
-    {
-        label: "Zirai Bölgeler",
-        template: itemRenderer,
-        items: [
-            { label: "Çiftlik", template: itemRenderer },
-            { label: "Bostan", template: itemRenderer },
-        ],
-    },
-    {
-        label: "Tabiat",
-        template: itemRenderer,
-        items: [
-            { label: "Koru", template: itemRenderer },
-            { label: "Dere", template: itemRenderer },
-        ],
     },
 ];
 
@@ -404,28 +274,17 @@ export default function Map() {
         return true;
     });
 
-    const itemRenderer = (item, options) => {
-        const count = initialData.filter((dataItem) => dataItem.optimization === item.label).length;
-        const icon = initialData.find((dataItem) => dataItem.optimization === item.label)?.icon;
+    const nodeTemplate = (node, options) => {
+        console.log(node);
         return (
-            <div className='flex align-items-center px-3 py-2 cursor-pointer'>
-                {item.items && (options.active ? <IoChevronDown /> : <IoChevronForward />)}
-                {!item.items && (
-                    <Checkbox
-                        className='mr-2'
-                        inputId={item.label}
-                        name={item.label}
-                        value={item.label}
-                        onChange={(e) => {
-                            if (!e.checked) setFilterOutKeywords((prev) => [...prev, item.label]);
-                            else setFilterOutKeywords((prev) => prev.filter((keyword) => keyword !== item.label));
-                        }}
-                        checked={!filterOutKeywords.includes(item.label)}
-                    />
-                )}
-                {icon && <img src={icon} width={18} height={18} />}
-                <span className={`mx-2 ${item.items && "font-semibold"}`}>{item.label}</span>
-                {!item.items && <Badge className='ml-auto' severity='info' value={count} />}
+            <div className='ml-2 flex  align-items-center justify-content-between flex-grow-1'>
+                <div className='flex align-items-center gap-2'>
+                    {!node.children && (
+                        <img src={initialData?.find((item) => item.optimization === node.key)?.icon} width={20} height={20} />
+                    )}
+                    {node.label}
+                </div>
+                {!node.children && <Badge value={initialData.filter((item) => item.optimization === node.key)?.length} />}
             </div>
         );
     };
@@ -475,7 +334,7 @@ export default function Map() {
                         </div>
                         <div className={classes.sliderContainer}>
                             <Tooltip target='.tooltipTarget' />
-                            <div className='flex gap-2 align-items-center mb-3'>
+                            <div className='flex gap-2 align-items-center mb-3 align-self-center'>
                                 <Chip label={`${yearInterval[0]} - ${yearInterval[1]}`} />
                                 <RxQuestionMarkCircled
                                     className='tooltipTarget'
@@ -490,7 +349,7 @@ export default function Map() {
                         <div>
                             <div className='flex mb-2 gap-2'>
                                 <Button
-                                    className='btn btn-info flex gap-2'
+                                    className='btn btn-info flex gap-2 flex-grow-1'
                                     label='Tümünü Ekle'
                                     icon='pi pi-check'
                                     onClick={() => {
@@ -499,7 +358,7 @@ export default function Map() {
                                     }}
                                 />
                                 <Button
-                                    className='btn btn-danger flex gap-2'
+                                    className='btn btn-danger flex gap-2 flex-grow-1'
                                     label='Tümünü Kaldır'
                                     icon='pi pi-times'
                                     onClick={() => {
@@ -508,9 +367,10 @@ export default function Map() {
                                     }}
                                 />
                             </div>
-                            {/* <PanelMenu model={filterItems(itemRenderer)} className='w-full md:w-20rem flex flex-column gap-1' /> */}
                             <Tree
+                                style={{ width: 20 }}
                                 value={nodes}
+                                nodeTemplate={nodeTemplate}
                                 selectionMode='checkbox'
                                 selectionKeys={selectedKeys}
                                 onSelectionChange={(e) => {

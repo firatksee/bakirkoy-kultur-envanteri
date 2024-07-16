@@ -58,7 +58,6 @@
 
 .aboutImage {
     aspect-ratio: 1.46;
-    background-image: url(./../assets/about.jpg);
     background-size: cover;
 }
 
