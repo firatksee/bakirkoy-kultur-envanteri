@@ -20,8 +20,8 @@ export default function HomePage() {
             </section> */}
             <section id='about' className={classes.aboutSection} style={{ height: "100vh" }}>
                 <div className={classes.about}>
-                    {/* <h2>HAKKINDA</h2> */}
                     <div className={classes.aboutTextContainer}>
+                        <h2>HAKKINDA</h2>
                         <p>
                             Bu çalışma Bakırköy'ün tarihsel coğrafyasını (1453 - 1922) konu alan ve Osmanlı'nın son dönem haritaları
                             üzerinde bu kültürel mirası göstermeyi hedefleyen bir dijital beşeri bilimler projesidir. Projenin hedefleri
