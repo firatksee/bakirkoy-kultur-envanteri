@@ -3,13 +3,7 @@ import router from "./routes";
 
 import classes from "./App.module.css";
 import HomePage from "./pages/HomePage";
-/*https://freeimage.host/i/dq88tM7
-https://freeimage.host/i/dq88mFe
-https://freeimage.host/i/dq88DP9
-https://freeimage.host/i/dq8SKMP
-https://freeimage.host/i/dq8SfP1
-https://freeimage.host/i/dq8SdwQ
-https://freeimage.host/i/dq8SBKF*/
+
 export default function App() {
     return (
         <>

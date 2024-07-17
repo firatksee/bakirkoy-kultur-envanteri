@@ -27,11 +27,11 @@ import classes from "./Map.module.css";
 
 import defaultIcon from "./../assets/icons/location.png";
 
-import APLEH018A from "../assets/maps/APLEH018A.jpg";
-import APLEH062 from "../assets/maps/APLEH062.jpg";
-import Hrt_000432 from "../assets/maps/Hrt_000432.jpg";
-import Hrt_000433 from "../assets/maps/Hrt_000433.jpg";
-import Hrt_000434 from "../assets/maps/Hrt_000434.jpg";
+const APLEH018A = "https://iili.io/dCBTeQs.jpg";
+const APLEH062 = "https://iili.io/dCBTsje.jpg";
+const Hrt_000432 = "https://iili.io/dCBT6y7.jpg";
+const Hrt_000433 = "https://iili.io/dCBTiu9.jpg";
+const Hrt_000434 = "https://iili.io/dCBTg3l.jpg";
 
 const maps = [
     {
