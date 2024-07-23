@@ -13,6 +13,7 @@ export default function App() {
                     <a href='#about'>HAKKINDA</a>
                     <a href='#map'>GALERİ</a>
                     <a href='/team'>EKİBİMİZ</a>
+                    <a href='/references'>KAYNAKÇA</a>
                     <a href='https://www.bakirkoy.bel.tr/iletisim' target='blank'>
                         BİZE ULAŞIN
                     </a>

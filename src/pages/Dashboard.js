@@ -226,7 +226,7 @@ export default function ProductsDemo() {
         return (
             <div className={classes.container}>
                 <div className='field'>
-                    <InputText id='auth' value={authPassword} onChange={(e) => setAuthPassword(e.target.value)} />
+                    <InputText id='auth' value={authPassword} onChange={(e) => setAuthPassword(e.target.value)} type='password' />
                 </div>
                 <Button
                     label='Giriş Yap'

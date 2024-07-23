@@ -1,4 +1,5 @@
 import classes from "./HomePage.module.css";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 import Map from "./../components/Map";
 
@@ -21,13 +22,19 @@ export default function HomePage() {
             <section id='about' className={classes.aboutSection} style={{ height: "100vh" }}>
                 <div className={classes.about}>
                     <div className={classes.aboutTextContainer}>
-                        <h2>HAKKINDA</h2>
+                        <div className='flex align-items-center gap-2'>
+                            <h2>HAKKINDA</h2>
+                            <a href={require("../data/presentation.pdf")} target='_blank'>
+                                <FaRegFilePdf size={26} color='#222' />
+                            </a>
+                        </div>
                         <p>
                             Bu çalışma Bakırköy'ün tarihsel coğrafyasını (1453 - 1922) konu alan ve Osmanlı'nın son dönem haritaları
                             üzerinde bu kültürel mirası göstermeyi hedefleyen bir dijital beşeri bilimler projesidir. Projenin hedefleri
                             arasında Bakırköyümüzün kültürel envanterini ortaya çıkartma ve kamuoyuna tanıtma amaçları yer almaktadır. Bu
                             hedefler doğrultusunda proje ekibimiz tarafından gönüllü olarak yürütülmüştür.
                         </p>
+
                         {/* <div className={classes.aboutImage} /> */}
                     </div>
                 </div>
